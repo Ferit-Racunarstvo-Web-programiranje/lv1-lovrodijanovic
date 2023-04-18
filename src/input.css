@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.headerLinks a:hover {
+  color: rgba(94, 59, 238, 1);
+}
+
+.portfolioLinks a:hover {
+  color: rgba(94, 59, 238, 1);
+}
