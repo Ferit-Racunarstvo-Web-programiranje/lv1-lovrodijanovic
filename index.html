@@ -348,7 +348,7 @@
             ipsam a hic fugiat.
           </p>
           <div class="flex justify-between items-center">
-            <img src="images/Avatar Image.png" class="w-4/12" />
+            <img src="images/Avatar Image.png" class="w-2/12" />
             <h3 class="text-1xl font-bold dark:text-white mb-5">
               Dianne Russell
             </h3>
@@ -435,7 +435,7 @@
             ipsam a hic fugiat.
           </p>
           <div class="flex justify-between items-center">
-            <img src="images/AvatarImage1.png" class="w-4/12" />
+            <img src="images/AvatarImage1.png" class="w-2/12" />
             <h3 class="text-1xl font-bold dark:text-white mb-5">
               Kristin Watson
             </h3>
@@ -524,7 +524,7 @@
             ipsam a hic fugiat.
           </p>
           <div class="flex justify-between items-center">
-            <img src="images/AvatarImage2.png" class="w-4/12" />
+            <img src="images/AvatarImage2.png" class="w-2/12" />
             <h3 class="text-1xl font-bold dark:text-white mb-5">
               Kathryn Murphy
             </h3>
@@ -534,24 +534,129 @@
       </div>
     </div>
     <div>
-      <div class="flex justify-center">
-        <h3 class="text-1xl font-bold dark:text-white mb-5">Get In Touch</h3>
+      <div class="ml-20 mr-20 mt-20">
+        <div class="flex justify-center">
+          <h3 class="text-1xl font-bold dark:text-white mb-5">Get In Touch</h3>
+        </div>
+        <div class="flex justify-center">
+          <h1
+            class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-5xl dark:text-white"
+          >
+            Contact me
+          </h1>
+        </div>
+        <div class="flex justify-center">
+          <h3 class="text-1xl font-bold dark:text-white mb-5">
+            Lorem impsum dolor sit amet, consectetur adipsicing elit.
+          </h3>
+        </div>
       </div>
-      <div class="flex justify-center">
-        <h1
-          class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-5xl dark:text-white mb-5"
-        >
-          Contact me
-        </h1>
-      </div>
-      <div class="flex justify-center">
-        <h3 class="text-1xl font-bold dark:text-white mb-5">
-          Lorem impsum dolor sit amet, consectetur adipsicing elit.
-        </h3>
-      </div>
+      <form>
+        <div class="grid gap-6 mb-6 md:grid-cols-2 pl-28 pr-28 pt-10">
+          <div>
+            <label
+              for="first_name"
+              class="block mb-2 text-sm font-bold text-gray-900 dark:text-white"
+              >First name</label
+            >
+            <input
+              type="text"
+              id="first_name"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder="John"
+              required
+            />
+          </div>
+          <div>
+            <label
+              for="last_name"
+              class="block mb-2 text-sm font-bold text-gray-900 dark:text-white"
+              >Last name</label
+            >
+            <input
+              type="text"
+              id="last_name"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder="Doe"
+              required
+            />
+          </div>
+          <div>
+            <label
+              for="email"
+              class="block mb-2 text-sm font-bold text-gray-900 dark:text-white"
+              >Email</label
+            >
+            <input
+              type="text"
+              id="email"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <div>
+            <label
+              for="phone"
+              class="block mb-2 text-sm font-bold text-gray-900 dark:text-white"
+              >Phone number</label
+            >
+            <input
+              type="tel"
+              id="phone"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder="123-45-678"
+              required
+            />
+          </div>
+        </div>
+        <div>
+          <div class="pl-28 pr-28 mb-6">
+            <label
+              for="message"
+              class="block mb-2 text-sm font-bold text-gray-900 dark:text-white"
+              >Message</label
+            >
+            <input
+              id="message"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder="Type your message..."
+            />
+          </div>
+        </div>
+        <div class="flex items-end mb-6 pl-28 pr-28">
+          <div class="flex items-center h-5">
+            <input
+              id="remember"
+              type="checkbox"
+              value=""
+              class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-purple-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-purple-600 dark:ring-offset-gray-800"
+              required
+            />
+          </div>
+          <label
+            for="remember"
+            class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+            >I agree with the
+            <a
+              href="#"
+              class="text-purple-600 hover:underline dark:text-purple-500"
+              >terms and conditions</a
+            >.</label
+          >
+        </div>
+        <div class="flex justify-center">
+          <button
+            type="submit"
+            class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Submit
+          </button>
+        </div>
+      </form>
     </div>
   </body>
-  <footer>
+  <footer class="bg-cyan-50 mt-10">
     <div class="flex justify-between items-center">
       <div class="logo pl-14">
         <svg
@@ -680,5 +785,17 @@
       </div>
     </div>
     <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-900" />
+    <div
+      class="flex justify-between pl-10 pr-10 pb-20 font-semibold cursor-pointer"
+    >
+      <div>
+        <p>Made with ❤️ by Airdokan</p>
+      </div>
+      <div class="flex">
+        <div class="mr-4"><a>Privacy Policy</a></div>
+        <div class="mr-4"><a>Terms of Service</a></div>
+        <div class="mr-4"><a>Cookies Settings</a></div>
+      </div>
+    </div>
   </footer>
 </html>
